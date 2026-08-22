@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lock Todo</string>
+    <string name="accessibility_service_label">잠금화면 빠른 할 일 - 볼륨키 감지</string>
+    <string name="accessibility_service_description">잠금화면 상태에서 볼륨 업 버튼을 두 번 눌렀는지 감지하여 빠른 할 일 추가 창을 띄우는 데 사용됩니다. 화면 내용을 읽거나 수집하지 않습니다.</string>
+    <string name="overlay_notification_channel">잠금화면 위젯</string>
+    <string name="overlay_notification_title">빠른 할 일 추가 대기 중</string>
+</resources>

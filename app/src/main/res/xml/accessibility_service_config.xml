@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    canRequestFilterKeyEvents + flagRequestFilterKeyEvents 조합이
+    핵심입니다. 이 설정이 있어야 서비스의 onKeyEvent()가
+    하드웨어 볼륨 키 이벤트를 받을 수 있습니다.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFlags="flagRequestFilterKeyEvents|flagReportViewIds"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRequestFilterKeyEvents="true"
+    android:notificationTimeout="100"
+    android:description="@string/accessibility_service_description" />
